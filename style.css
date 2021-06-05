@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 0;
+}
+#navbarNav{
+    padding:0;
+    position: fixed;
+    top:0;
+   
+    right:0;
+    
+
+}
+
+section{
+    
+    background-color: aquamarine;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input[type=text]{
+    width: 500px;
+}
+input{
+    margin: 10px;
+}
